@@ -81,7 +81,7 @@ if [ $LOCAL != $REMOTE ]; then
     # 本地分支与远程分支不一致，需要更新
     print_important_notice
 else
-    echo -e "${GREEN}当前master分支已是最新，无需更新。${NC}"
+    echo -e "${GREEN}当前master分支已是最新，无需更新 。${NC}"
 fi
 
 
