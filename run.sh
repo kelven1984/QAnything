@@ -133,7 +133,7 @@ if [[ -n "$device_id" ]]; then
     # 如果传入参数，分割成两个GPU ID
     IFS=',' read -ra gpu_ids <<< "$device_id"
     gpu_id1=${gpu_ids[0]}
-    gpu_id2=${gpu_ids[1]:-$gpu_id1}  # 如果没有第二个ID，则默认使用第一个ID
+    gpu_id2=${gpu_ids[1]:-$gpu_id1}  # 如果没有第二个ID，则默认使用第一个 ID
 fi
 
 echo "GPUID1=${gpu_id1}, GPUID2=${gpu_id2}, device_id=${device_id}"
