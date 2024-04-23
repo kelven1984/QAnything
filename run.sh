@@ -64,7 +64,7 @@ print_important_notice() {
     echo -e "${YELLOW}******************** 重要提示 ********************${NC}"
     echo -e "${YELLOW}====================================================${NC}"
     echo
-    echo -e "${RED}检测到master分支有新的代码更新，如需体验最新的功能，可以手动执行 git pull 来同步最新的代码。${NC}"
+    echo -e "${RED}检测到master分支有新的代码更新，如需体验最新的功能，可以手动执行 git pull  来同步最新的代码。${NC}"
     echo
     sleep 5
 }
